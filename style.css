@@ -1,5 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -7,7 +12,7 @@
 }
 
 .logo{
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     align-items: center;
     background-image: url('https://sqi.edu.ng/wp-content/uploads/2026/02/imgi_2_SQI-COLLEGE-OF-ICT-LOGO-WEB-2-1.png');
     background-size: contain;
@@ -18,7 +23,7 @@
 }
 
 .nav{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
 }
@@ -30,10 +35,134 @@ ul{
     justify-content: baseline;
 }
 
+.boss{
+    margin-left: 8%;
+}
+
 li{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 24px;
+     font-stretch: 100%;
+     color: rgb(0, 14, 66);
     padding: 7px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     text-decoration: none;
-}   
+}
+
+a{
+    text-decoration: none;
+    color: #00208a;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero-section{
+    align-items: center ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    background: linear-gradient(45deg, white , #FFFDF3);
+    width: 80%;
+    margin:0px 100px;
+    height: 75dvh;
+}
+.box {
+    height: 60dvh;
+    width: 40%;
+    /* border: 1px solid yellow; */
+}
+h1{
+    color:rgb(0, 14, 66) ;
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 80px;
+}
+p{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    /* border: 1px wheat; */
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    background-color: #00208a;
+    width: 150px;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 17px 15px;
+    cursor: pointer;
+
+}
+.main{
+    /* border: 1px solid black; */
+     width: 100%;
+     height: 75dvh;
+    background: linear-gradient( to right, white , #FFFDF3);
+}
+
+.text{
+    width: 45%;
+    height: 75dvh;
+    color:rgb(0, 14, 66) ;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: #00208a solid 1px; */
+    /* gap: 20px; */
+}
+.doodle{
+    /* border: 1px solid brown; */
+    background-image: url("media/images/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    height: 72dvh;
+    width: 47%;
+}
+.sec{
+    font-size: 26px;
+    font-family: "poppins" , sans-serif;
+    font-weight: 600;
+    color: #000E42;
+    text-align: left;
+    letter-spacing: normal;
+    line-height: 54.4px;
+    margin-top: 50px;
+}
+
+.cont{
+    width: 25%;
+    display: flex;
+    height: auto;
+    border: 1px solid hotpink;
+}
+
+.one{
+    background-image: url("");
+}
+
+.two{
+    background-image: url("");
+}
+
+.three{
+    background-image: url("");
+}
