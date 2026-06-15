@@ -689,6 +689,7 @@ h4{
     font-family: "Poppins", sans-serif;
     margin-top: 15px;
     line-height: 40px;
+    color: #333333;
 }
 .qq p{
     font-size: 15px;
@@ -809,45 +810,78 @@ h4{
 }
 .new{
     display: grid;
-    border: 1px solid forestgreen;
-    height: 60dvh;
-
+    /* border: 1px solid forestgreen; */
+    height: 15dvh;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 1fr;
-
     grid-template-areas:
-        "one one two"
-        "three four five"
+        "on . tw"
         ;
-
     gap: 20px;
-    align-items: start;
+    margin-top: 50px;
 }
-
+.hmm{
+    display: flex;
+    height: 70px;
+}
 .vv{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .xxx{
-    grid-area: one;
+    grid-area: on;
+    width: 250px;
 }
 
 .jjj{
-    grid-area: two;
-    height: 50px;
+    grid-area: tw;
+    margin-left: 600px;
 }
 .jjj button{
-    height: 20px;
+    border-radius: 25px;
+    border: none;
 }
-
-.kkk{
-    grid-area: three;
+.review{
+    display: flex;
+    height: 60dvh;
+    width: 100%;
+    align-items: center;
+    /* border: 1px solid darkblue; */
+    justify-content: space-between;
+    margin-top: 100px;
 }
-
-.zzz{
-    grid-area: four;
+.ll{
+    width: 30%;
+    height: 90dvh;
+    /* border: 1px solid black; */
+    
 }
+.ll h5{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px;
+    line-height: 20px;
+}
+.ll b{
+    padding: 14px;
+    color: #F7827E;
+}
+.ll p{
+    padding: 14px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.kkk img{
+    height: 188px;
+}
+.zzz img{
+    height: 188px;
+}
+.yyy img{
+    height: 188px;
 
-.yyy{
-    grid-area: five;
+}
+.end{
+    
 }
