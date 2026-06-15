@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .header{
     /* border: 1px solid green; */
@@ -136,6 +137,12 @@ button{
     justify-content: center;
     /* border: #00208a solid 1px; */
     /* gap: 20px; */
+}
+.text h1{
+    line-height: 75px;
+}
+.text button{
+    margin-top: 25px;
 }
 .doodle{
     /* border: 1px solid brown; */
@@ -471,7 +478,7 @@ h4{
     line-height: 25px;
 }
 .twtw button{
-    border-radius: 35%;
+    border-radius: 35px;
     border: none;
     width: 120px;
     padding: -5px;
@@ -545,6 +552,7 @@ h4{
     font-size: 15px;
     margin-left: 35px;
     background-color: #2A6FE8;
+    border-radius: 25px;
     border: none;
 }
 .fa-star{
@@ -569,25 +577,25 @@ h4{
     overflow-x: auto;
 }
 .er{
-    border: 1px solid darkolivegreen;
+    /* border: 1px solid darkolivegreen; */
     display: flex;
     width: 45%;
     margin-left: -2%;
     height: fit-content;
     background-color: #FAFAFA;
     height: 43dvh;
+    padding-top: 5px;
 }
 .sds{
     width: 48%;
-    flex: 0 0 45%;
+    flex: 0 0 50%;
 }
 .er img{
-    /* display:; */
     margin-left: 10px;
 }
 .er h5{
     color:  #154FC1;
-    line-height: 20px;
+    line-height: 16px;
 }
 .er p{
     font-size: 12px;
@@ -609,13 +617,242 @@ h4{
 }
 .asa{
     width: 48%;
-    flex: 0 0 45%;
+    flex: 0 0 50%;
+    padding-left: 2%;
+    /* margin-left: -3% ; */
 }
 .jkj{
     width: 48%;
-    flex: 0 0 45%;
+    flex: 0 0 50%;
+    padding-left: 2%;
 }
 .nmn{
     width: 48%;
-    flex: 0 0 45%;
+    flex: 0 0 50%;
+    padding-left: 2%;
+}
+.vbv{
+    width: 48%;
+    flex: 0 0 50%;
+    padding-left: 2%;
+}
+.why{
+    /* border: 1px solid salmon; */
+    margin-bottom: 45px;
+
+}
+.study{
+    /* border: 1px solid darkgoldenrod; */
+    height: 160dvh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "one one pic"
+    "three four pic"
+    "five six pic"
+    "seven eight pic"
+    "nine ten pic"
+    ;
+    gap: 10px;
+}
+.qq{
+    /* border: 1px solid #FB8E28; */
+    padding-left: 10px;
+}
+.ooo{
+    grid-area: one;
+    margin-top: 80px;
+}
+.ooo h2{
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.trr{
+    grid-area: pic;
+    background-image: url("https://edu.sqi.ng/wp-content/uploads/2023/01/conference_image_15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-right: 200px; */
+    /* margin-right: 20px; */
+}
+
+.fff{
+    grid-area: three;
+    top: 0px;
+}
+.qq h4 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 15px;
+    line-height: 40px;
+}
+.qq p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+.fii{
+    grid-area: four;
+
+}
+.sss{
+    grid-area: five;
+}
+.see{
+    grid-area: six;
+}
+.eee{
+    grid-area: seven;
+}
+.nnn{
+    grid-area: eight;
+}
+.tee{
+    grid-area: nine;
+}
+.ell{
+    grid-area: ten;
+}
+.faq{
+    /* border: 1px solid #000E42; */
+    display: flex;
+    width: 100vw;
+    background-color: #090326;
+    height: 100dvh;
+    margin-left: -13%;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 20px auto; */
+}
+.faqq{
+    /* border: 1px solid #E0D5C0; */
+    height: 600px;
+    width: 43%;
+}
+.opop{
+    width: 32%;
+    margin: 2%;
+}
+.opop h2, h4{
+    color: white;
+}
+.opop b{
+    font-size: 22px;
+    font-weight: 500;
+    color: #D0A73F;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #D0A73F;
+    /* padding-top: 50px; */
+    /* margin-top: 60000000px; */
+    /* margin-left: 70px; */
+
+}
+.popo h3{
+    margin-top: 60px;
+    color: #D39B00;
+    /* text-decoration: underline; */
+
+}
+.popo p{
+    color: white;
+    border-bottom: 3px solid #D39B00;
+    line-height: 30px;
+}
+.popo h4{
+    padding-bottom: 20px;
+    color: #D39B00;
+    border-bottom: 3px solid #D39B00;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+}
+.ready{
+    /* border: 1px solid firebrick; */
+    height: 75dvh;
+    width: 100vw;
+    background-color: #000B3F;
+    margin-left: -13%;
+}
+.time{
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 55dvh;
+    /* border: 1px solid darkorchid; */
+    width: 88%;
+    /* color: white; */
+}
+.time h4{
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+}
+.time h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    line-height: 70px;
+    padding-bottom: 20px;
+}
+.time p{
+    color: white;
+    font-size: 15.3px;
+}
+.time button{
+    margin-top: 40px;
+    border-radius: 25px;
+    border: none;
+}
+.new{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border: 1px solid #2A6FE8;
+    margin-top: 50px;
+    /* height: 100dvh; */
+
+}
+.latest{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.latest h2{
+    width:67.3vw;
+    color: black;
+}
+.latest button{
+    color: white;
+    border-radius: 25px;
+}
+.sqi{
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    height: 80dvh;
+    width: 100%;
+    /* align-self: end; */
+    grid-template-rows: repeat(4, 150px);
+    display: flex ;
+}
+.vv{
+    /* display: flex; */
+    /* margin-top: 90px; */
+    width: 30vw;
+    height: 80dvh;
+    border: 1px solid darkorange;
+    align-self: center;
+    /* flex-direction: column; */
+}
+.kkk{
+}
+.zzz{
+
+}
+.yyy{
+    
 }
